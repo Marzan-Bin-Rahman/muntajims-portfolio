@@ -9,27 +9,27 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <body class="bg-violet-100/50">
+    <body class="bg-violet-200 dark:bg-stone-800">
 	<!-- <header> -->
     <!-- Navbar goes here -->
-		<nav class="bg-white shadow-2xl">
+		<nav class="bg-white dark:bg-indigo-900 shadow-lg">
 			<div class="max-w-6xl mx-auto px-4">
 				<div class="flex justify-between">
 					<div class="flex space-x-7">
 						<div>
 							<!-- Website Logo -->
 							<a href="#" class="flex items-center py-4 px-2">
-								<img src="resources/logo.jpg" alt="Logo" class="h-8 w-8 mr-2">
-								<span class="font-semibold text-violet-500 text-lg">মুনতাজিম রহমান সাইমন</span>
+								<img src="resources/logo.jpg" alt="Logo" class="h-8 w-8 mr-2 dark:hidden">
+								<span class="font-semibold text-yellow-500 text-lg">মুনতাজিম রহমান সাইমন</span>
 							</a>
 						</div>
 						<!-- Primary Navbar items -->
 						<div class="hidden md:flex items-center  space-x-1">
 							<a href="" class="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold ">প্রথম পাতা</a>
-							<a href="" class="py-4 px-2 text-violet-500 font-semibold hover:text-green-500 transition duration-300">আমার লেখালেখি</a>
-							<a href="" class="py-4 px-2 text-violet-500 font-semibold hover:text-green-500 transition duration-300">শো অফ</a>
-							<a href="" class="py-4 px-2 text-violet-500 font-semibold hover:text-green-500 transition duration-300">আমার সম্পর্কে</a>
-							<a href="" class="py-4 px-2 text-violet-500 font-semibold hover:text-green-500 transition duration-300">আমার স্বপ্ন</a>
+							<a href="" class="py-4 px-2 text-green-500 font-semibold hover:text-green-500 dark:hover:text-yellow-500 transition duration-300">আমার লেখালেখি</a>
+							<a href="" class="py-4 px-2 text-green-500 font-semibold hover:text-green-500 dark:hover:text-yellow-500 transition duration-300">শো অফ</a>
+							<a href="" class="py-4 px-2 text-green-500 font-semibold hover:text-green-500 dark:hover:text-yellow-500 transition duration-300">আমার সম্পর্কে</a>
+							<a href="" class="py-4 px-2 text-green-500 font-semibold hover:text-green-500 dark:hover:text-yellow-500 transition duration-300">আমার স্বপ্ন</a>
 						</div>
 					</div>
 					<!-- Mobile menu button -->
@@ -74,6 +74,9 @@
             <!-- hero section of the body --> <!-- class="mt-24"-->
             <section>
                 <div class="grid md:grid-cols-2 grid-cols-1 gap8 justify-items-center items-center">
+                    <div>
+                        <img class="block mx-auto" src="resources/img1.png" alt="">
+                    </div>
                     <div class="m-12">
                         <h1 class="font-extrabold text-violet-500 text-3xl">
                             গিয়েছ নাকি আমাকে ভুলিয়া? <br>
@@ -83,9 +86,6 @@
                             একজন <span class="font-black text-green-500">দ্বীনদ্বার আহলিয়া</span> পাওয়া! 
                         </h1>
                     </div>
-                    <div>
-                        <img class="block mx-auto" src="resources/img1.png" alt="">
-                    </div>
                 </div>
             </section>
             <!-- about me of the body --> 
@@ -93,9 +93,6 @@
                 <h1 class="text-6xl text-emerald-500 font-extrabold text-center">আমার সম্পর্কে</h1>
                 <hr class="w-2/4 m-auto border-4 rounded-full border-amber-700">
                 <div class="grid md:grid-cols-2 grid-cols-1 gap8 justify-items-center items-center">
-                    <div>
-                        <img class="block m-auto mt-12 w-3/4 h-3/4" src="resources/mbro1.png" alt="">
-                    </div>
                     <div class="m-12">
                         <h1 class="font-extrabold text-violet-500 text-3xl">
                             আমি সাইমন। মুনতাজিম রহমান সাইমন। আমার বয়স ১৮ বছর। অর্থাৎ আমি অদম্য ১৮। আমি ঢাকাতে থাকি যদিও আমার গ্রামের বাড়ি <span class="font-black text-red-500">ব্রাহ্মনবাড়িয়া</span>। আমি রাজউকে পড়াশুনা করছি। আর দিন দিন বিয়ের চিন্তা করে ওজন কমাচ্ছি। এছাড়াও আমি হালকা পাতলা লেখালেখিও করি!
@@ -104,6 +101,9 @@
                             এই হলো আমার সংক্ষিপ্ত পরিচয়...
                         </h1>
                     </div>
+                    <div>
+                        <img class="block m-auto mt-12 w-3/4 h-3/4" src="resources/mbro1.png" alt="">
+                    </div>
                 </div>
             </section>
             <!-- writing of the body -->
@@ -111,6 +111,9 @@
                 <h1 class="text-6xl text-emerald-500 font-extrabold text-center">আমার লেখালেখি</h1>
                 <hr class="w-2/4 m-auto border-4 rounded-full border-amber-700">
                 <div class="grid md:grid-cols-2 grid-cols-1 gap8 justify-items-center items-center">
+                    <div>
+                        <img class="block mx-auto" src="resources/writing.png" alt="">
+                    </div>
                     <div class="m-12">
                         <h1 class="font-extrabold text-violet-500 text-3xl">
                             আমি সাধারণত প্রবন্ধ রচনা লিখে থাকি!
@@ -129,9 +132,6 @@
                             আমার ঘরের রাণী।
                         </p>
                     </div>
-                    <div>
-                        <img class="block mx-auto" src="resources/writing.png" alt="">
-                    </div>
                 </div>
             </section>
                        <!-- show of of the body --> 
@@ -139,13 +139,13 @@
                         <h1 class="text-6xl text-emerald-500 font-extrabold text-center">শো অফ</h1>
                         <hr class="w-2/4 m-auto border-4 rounded-full border-amber-700">
                         <div class="grid md:grid-cols-2 grid-cols-1 gap8 justify-items-center items-center">
-                            <div>
-                                <img class="block m-auto mt-12 w-3/4 h-3/4" src="https://scontent.fdac8-1.fna.fbcdn.net/v/t1.6435-9/116911226_154367056239551_2864586025335576085_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=174925&_nc_ohc=eN_MmAYk6GUAX-KQ1xm&_nc_ht=scontent.fdac8-1.fna&oh=00_AT__jzMXGdsqMAQxjDGoBe7V1i0kNu6JAZtqXPpcU8pqsQ&oe=623B45C4" alt="">
-                            </div>
                             <div class="m-12">
                                 <h1 class="font-extrabold text-violet-500 text-3xl">
                                     পুরষ্কার আমার কাছে নিত্যদিনের ব্যাপার। এমনকি আমি মাননীয় প্রধানমন্ত্রি মাদার অফ হিউমানিটি বঙ্গবন্ধু কন্যা দেশরত্ন শেখ হাসিনার কাছে থেকেও পুরষাক্র নিয়েছে। কতকটা কলম ধরলেই আমি পুরষ্কার পাই। কলম আমার অনেক প্রিয়...
                                 </h1>
+                            </div>
+                            <div>
+                                <img class="block m-auto mt-12 w-3/4 h-3/4" src="https://scontent.fdac8-1.fna.fbcdn.net/v/t1.6435-9/116911226_154367056239551_2864586025335576085_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=174925&_nc_ohc=eN_MmAYk6GUAX-KQ1xm&_nc_ht=scontent.fdac8-1.fna&oh=00_AT__jzMXGdsqMAQxjDGoBe7V1i0kNu6JAZtqXPpcU8pqsQ&oe=623B45C4" alt="">
                             </div>
                         </div>
                     </section>
@@ -155,22 +155,22 @@
                             <div>
                                 <img src="resources/prize1.png" alt="">
                                 <h1 class="text-xl font-bold text-cyan-600">প্রধানমন্ত্রির থেকে নেয়া পুরষ্কার </h1>
-                                <p class="text-md">বঙ্গবন্ধুকে নিয়ে রচনা লিখে এটা ২০১৭ সালে পেয়েছিলাম।</p>
+                                <p class="text-md text-white/70">বঙ্গবন্ধুকে নিয়ে রচনা লিখে এটা ২০১৭ সালে পেয়েছিলাম।</p>
                             </div>
                             <div>
                                 <img src="resources/prize2.png" alt="">
                                 <h1 class="text-xl font-bold text-cyan-600">রাষ্ট্রপতির থেকে নেয়া পুরষ্কার </h1>
-                                <p class="text-md">ব্রাহ্মণবাড়িয়া নিয়ে রচনা লিখে এটা ২০১৭ সালে পেয়েছিলাম।</p>
+                                <p class="text-md text-white/70">ব্রাহ্মণবাড়িয়া নিয়ে রচনা লিখে এটা ২০১৭ সালে পেয়েছিলাম।</p>
                             </div>
                             <div>
                                 <img src="resources/prize3.png" alt="">
                                 <h1 class="text-xl font-bold text-cyan-600">প্রধান অধ্যক্ষর থেকে নেয়া পুরষ্কার </h1>
-                                <p class="text-md">রাজউক নিয়ে রচনা লিখে এটা ২০১৭ সালে পেয়েছিলাম।</p>
+                                <p class="text-md text-white/70">রাজউক নিয়ে রচনা লিখে এটা ২০১৭ সালে পেয়েছিলাম।</p>
                             </div>
                             <div>
                                 <img src="resources/prize4.png" alt="">
                                 <h1 class="text-xl font-bold text-cyan-600">ইলন মাস্কের থেকে নেয়া পুরষ্কার </h1>
-                                <p class="text-md">টেসলাকে নিয়ে রচনা লিখে এটা ২০১৭ সালে পেয়েছিলাম।</p>
+                                <p class="text-md text-white/70">টেসলাকে নিয়ে রচনা লিখে এটা ২০১৭ সালে পেয়েছিলাম।</p>
                             </div>
                         </div>
                     </section>
@@ -190,7 +190,7 @@
         </main>
         <!-- footer -->
         <footer class="m-12 p-8">
-            <p class="text-md text-center">&COPY;2022 | All the rights are reserved by Muntajim Rahman Saimon. <span class="text-emerald-500">Developed by <a class="text-red-500 underline decoration-wavy" target="_blank" href="https://github.com/Marzan-Bin-Rahman">Marzan Bin Rahman</a></span></p>
+            <p class="text-md text-center text-white/70">&COPY;2022 | All the rights are reserved by Muntajim Rahman Saimon. <span class="text-emerald-500">Developed by <a class="text-red-500 underline decoration-wavy" target="_blank" href="https://github.com/Marzan-Bin-Rahman">Marzan Bin Rahman</a></span></p>
         </footer>
 </body>
 </html>
